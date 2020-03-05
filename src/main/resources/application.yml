@@ -1,0 +1,16 @@
+ibm:
+  mq:
+    queueManager: QM1
+    channel: DEV.APP.SVRCONN
+    connName: localhost(1414)
+    user: 
+    password: 
+    user-authentication-m-q-c-s-p: false
+    pool:
+      enabled: false
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.jms: DEBUG
+    com.ibm: DEBUG
+      
